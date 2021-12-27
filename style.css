@@ -25,7 +25,6 @@ header {
   font-size: 20px;
   display: flex;
   justify-content: space-between;
-  height: 1500px;
 }
 .logo {
   margin-right: 30px;
@@ -209,3 +208,29 @@ color: blanchedalmond;
 .rsschool{
   width: 100px;
 }
+
+@media (max-width: 1414px) {
+h1{
+  font-size: 20px;
+}
+}
+
+@media (max-width: 1380px) {
+  .logo-container {
+    margin-right: 10px;
+  }
+  .nav-link a{
+    font-size: 14px;
+  }
+  li.nav-link{
+    width: 95px;
+    text-align: center;
+  }
+  .navbar{
+    justify-content: space-between;
+  }
+  header{
+    width: 100%;
+    padding: 0px;
+}
+  }
